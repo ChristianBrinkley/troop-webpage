@@ -12,6 +12,22 @@ body {
 	display: inline-block;
 }
 
+.nav a:link, .nav a:visited{
+	color: #fefefe;
+	text-decoration: none;
+}
+
+.nav a:hover, .nav a:active{
+	color: grey;
+	text-decoration: none;
+}
+
+.calendar {
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 h2 {
 	font-size: 2em;
 	padding: 0px;
@@ -19,7 +35,13 @@ h2 {
 }
 
 h3 {
+	font-size: 1em;
 	padding: 0px;
 	margin: 0px;
 }
+
+h4 {
+	font-size: .75em;
+}
+
 
